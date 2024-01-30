@@ -5,7 +5,7 @@ function App() {
   const [name, setName] = useState('')
   const [age, setAge] = useState(0)
   const [height, setHeight] = useState(0)
-  const [superpower, setSuperpower] = useState('')
+  const [superPower, setSuperPower] = useState('')
 
   return (
     <>
