@@ -12,9 +12,19 @@ function App() {
       <div className='App'>
         <h1>Build a Hero</h1>
         <label>Name:</label>
-        <input type='text' placeholder='Hero Name' style={{ margin: 10 }} onChange={(event) => {setName(event.target.value)}} />
+        <input 
+          type='text' 
+          placeholder='Hero Name' 
+          style={{ margin: 10 }} 
+          onChange={(event) => {setName(event.target.value)}} 
+        />
         <label>Age:</label>
-        <input type='number' placeholder='Hero Age' style={{ margin: 10 }} onChange={(event) => {setAge(event.target.value)}} />
+        <input 
+          type='number' 
+          placeholder='Hero Age' 
+          style={{ margin: 10 }} 
+          onChange={(event) => {setAge(event.target.value)}} 
+        />
         <label>Height:</label>
         <input type='text' placeholder='Hero Height' style={{ margin: 10 }} onChange={(event) => {setHeight(event.target.value)}} />
         <label>Superpower:</label>
