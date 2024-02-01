@@ -26,9 +26,17 @@ function App() {
           onChange={(event) => {setAge(event.target.value)}} 
         />
         <label>Height:</label>
-        <input type='text' placeholder='Hero Height' style={{ margin: 10 }} onChange={(event) => {setHeight(event.target.value)}} />
+        <input 
+          type='text' 
+          placeholder='Hero Height' 
+          style={{ margin: 10 }} 
+          onChange={(event) => {setHeight(event.target.value)}} />
         <label>Superpower:</label>
-        <input type='text' placeholder='Hero Superpower' style={{ margin: 10 }} onChange={(event) => {setSuperPower(event.target.value)}} />
+        <input 
+          type='text' 
+          placeholder='Hero Superpower' 
+          style={{ margin: 10 }} 
+          onChange={(event) => {setSuperPower(event.target.value)}} />
       </div>
     </>
   )
